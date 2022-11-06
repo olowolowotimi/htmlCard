@@ -1,0 +1,55 @@
+html {
+  font-family: ubuntu;
+  padding: 20px 10px;
+}
+
+.card {
+  height: 100%;
+  width: 280px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px 13px;
+  margin: 0 auto;
+}
+
+.card-plan {
+  font-weight: bold;
+}
+
+.card-info {
+  margin-top: 90px;
+}
+
+.card-info h3 {
+  font-size: 45px;
+}
+
+.card-info button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  background: none;
+  border: 1px solid;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(233, 229, 229);
+}
+
+.card-info {
+  padding-bottom: 100px;
+}
+
+.plan-benefits ul li {
+  list-style: none;
+  margin-left: -40px;
+  font-weight: 400;
+}
+
+li span {
+  font-size: 20px;
+  font-weight: bold;
+}
